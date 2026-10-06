@@ -72,72 +72,8 @@ Make sure you have the following installed:
 * MongoDB / MongoDB Atlas
 * Git
 
-## 📥 Installation
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/codersgyan/inshare-file-sharing-app-api.git
-```
-
-### 2. Navigate to the project
-
-```bash
-cd inshare-file-sharing-app-api
-```
-
-### 3. Install dependencies
-
-Using npm:
-
-```bash
-npm install
-```
-
-Or using Yarn:
-
-```bash
-yarn install
-```
-
-### 4. Configure environment variables
-
-Rename `.env.example` to `.env`:
-
-```bash
-.env.example → .env
-```
-
-Then add your required configuration and credentials.
-
-Example:
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-```
-
-> Do not commit your `.env` file to GitHub. Keep credentials and API keys private.
-
-## ▶️ Running the Application
-
-Start the development/server environment with:
-
-```bash
-npm start
-```
-
-or:
-
-```bash
-yarn start
-```
-
-Once the server starts, the API will be available at:
-
-```text
-http://localhost:5000
-```
 
 ## 🔄 How It Works
 
@@ -208,10 +144,6 @@ User Downloads File
 ## 🧩 Frontend
 
 The original project has a separate frontend implementation.
-
-Frontend repository:
-
-https://github.com/ShivamJoker/InShare
 
 The frontend communicates with this backend through the REST API.
 
@@ -286,16 +218,6 @@ Through this project, developers can practice:
 * API integration
 * Full-stack application development
 
-## ⭐ Credits
 
-This project is based on the original **InShare File Sharing API** by **CodersGyan**.
 
-Original repository:
 
-https://github.com/codersgyan/inshare-file-sharing-app-api
-
----
-
-## 📄 License
-
-This project is intended for educational and development purposes.
